@@ -1,0 +1,22 @@
+{
+	"PostRequest":{
+	
+	"firstname": "rajesh",
+	"lastname": "Patil",
+	"billingAddress": "pune",
+	"productname": "IPhone",
+	"productprice": 199.23,
+	"productdiscount": 10,
+	"productinfo": "Iphone 15"
+	},
+	
+	"PutRequest" :	{
+	"firstname": "Partik",
+	"lastname": "Gadekar",
+	"billingAddress": "pune",
+	"productname": "IPhone",
+	"productprice": 199.23,
+	"productdiscount": 10,
+	"productinfo": "Iphone 15"
+	}
+}
