@@ -1,0 +1,21 @@
+{
+	
+	"PostRequest": 	{
+	"firstname": "Suraj",
+	"lastname": "Yadav",
+	"city": "Delhi",
+	"mobilenumber": 7777,
+	"email": "suraj1@gmail.com"
+	},
+	
+	"PutRequest":
+	{
+	"firstname": "anuja",
+	"lastname": "Pandit",
+	"city": "Mumbai",
+	"mobilenumber": 8888,
+	"email": "anuja2@gmail.com"
+	}
+	
+
+}
