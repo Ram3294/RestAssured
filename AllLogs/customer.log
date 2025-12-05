@@ -1,0 +1,21 @@
+HTTP/1.1 201 Created
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Fri, 05 Dec 2025 07:51:10 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 202
+
+{
+    "id": "d0e4",
+    "firstname": "rajesh",
+    "lastname": "Patil",
+    "billingAddress": "pune",
+    "productname": "IPhone",
+    "productprice": 199.23,
+    "productdiscount": 10,
+    "productinfo": "Iphone 15"
+}

@@ -10,4 +10,5 @@ Feature: Test All Customer Endpoints
     And user validate a status code 201
     And user validate a status line "Created"
     And user validate a content type header
-    
+
+ 

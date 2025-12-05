@@ -1,6 +1,5 @@
 package steps;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -28,7 +27,7 @@ public class EmployeeStep extends BaseTest{
 	static String Id;
 	ValidatableResponse validResponse;
 	@Given("user add Reuest spec builder with all http request")
-	public void user_add_reuest_spec_builder_with_all_http_request() throws FileNotFoundException {
+	public void user_add_reuest_spec_builder_with_all_http_request() throws IOException {
 		 requestSpec=RestAssured.given();
 		requestSpec.spec(getRequestSpecBuilder());
 	}

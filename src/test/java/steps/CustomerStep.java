@@ -1,7 +1,6 @@
 package steps;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.hamcrest.Matchers;
@@ -27,8 +26,8 @@ public class CustomerStep extends BaseTest{
 	static String Id;
 	ValidatableResponse validResponse;
 	@Given("user add request Spec builder to http request")
-	public void user_add_request_spec_builder_to_http_request() throws FileNotFoundException {
-		 requestSpec=RestAssured.given().spec(getRequestSpecBuilder());
+	public void user_add_request_spec_builder_to_http_request() throws IOException {
+		 requestSpec=RestAssured.given().spec(getRequestSpecBuilder1());
 		
 	}
 
